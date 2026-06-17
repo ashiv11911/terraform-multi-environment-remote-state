@@ -9,4 +9,5 @@ module "infra" {
   instance_type      = var.instance_type
   ingress_cidrs      = var.ingress_cidrs
   tags               = var.tags
+  region             = var.aws_region
 }

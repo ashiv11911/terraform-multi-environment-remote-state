@@ -9,6 +9,11 @@ variable "environment" {
   description = "Environment name (dev, preprod, prod)."
 }
 
+variable "aws_region" {
+  type        = string
+  description = "AWS Region"
+}
+
 variable "vpc_cidr" {
   type        = string
   description = "CIDR block for the VPC."
